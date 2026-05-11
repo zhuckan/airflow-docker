@@ -1,9 +1,3 @@
-
----
-
-### airflow-docker
-
-```markdown
 # Airflow ML Pipeline: Car Price Prediction
 
 Automating model training and inference with Apache Airflow.
@@ -26,15 +20,13 @@ Python · Airflow 3.2.1 · Docker Compose · Scikit-learn · Pandas · Dill · P
    cd airflow-docker
 
 2. **Set up environment variables:**
-
-```bash
-cp .env.example .env
-# edit .env and insert your real keys
+   ```bash
+   cp .env.example .env
+  # edit .env and insert your real keys
 
 3. **Start the services:**
-
-```bash
-docker compose up -d
+   ```bash
+   docker compose up -d
 
 4. **Open Airflow web UI:**
 Go to http://localhost:8080
