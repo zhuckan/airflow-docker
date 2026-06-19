@@ -10,7 +10,7 @@ Automating model training and inference with Apache Airflow.
 
 ## Stack
 
-Python · Airflow 3.2.1 · Docker Compose · Scikit-learn · Pandas · Dill · PostgreSQL · Redis
+Python · Airflow · Docker Compose · Scikit-learn · Pandas · Dill 
 
 ## Quick Start
 
